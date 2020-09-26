@@ -1,0 +1,154 @@
+Yano's rule(id: 687661187399286794)
+Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "Roll20" is not found
+Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "aa" is not found
+Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "rd20" is not found
+Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "r1d8+6d6" is not found
+<class 'IndexError'>
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 181, in get_quoted_word
+    raise InvalidEndOfQuotedStringError(next_char)
+discord.ext.commands.errors.InvalidEndOfQuotedStringError: Expected space after closing quotation but received 'd'
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 181, in get_quoted_word
+    raise InvalidEndOfQuotedStringError(next_char)
+discord.ext.commands.errors.InvalidEndOfQuotedStringError: Expected space after closing quotation but received 'd'
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 148, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 148, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 148, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 148, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 148, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 148, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+Yano's Servant#4088 is connected to the following guild:
+Yano's rule(id: 687661187399286794)
+Ignoring exception in command r:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/core.py", line 523, in transform
+    argument = view.get_quoted_word()
+  File "/usr/lib/python3.8/site-packages/discord/ext/commands/view.py", line 148, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+ 
+
+ 
+ 
+ 
+ 
+also fix max roll command
