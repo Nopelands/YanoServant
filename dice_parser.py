@@ -59,14 +59,13 @@ def dice_parser(query_string: str) -> str:
         else:
             return f"Unexpected token while parsing: {i}"
 
-    if tokens[0].token_type is not TokenType.OP and tokens[len(tokens) - 1] is not TokenType.OP:
-        for i in range(1, len(tokens) - 2):
-            if i % 2 == 1 and tokens[i].token_type is not TokenType.OP:
-                return "Missing operator while parsing"
-            elif i % 2 == 0 and (tokens[i].token_type is not TokenType.DR or tokens[i].token_type is not TokenType.MOD):
-                return "Missing operand while parsing"
-    else:
-        return "Missing operator while parsing"
+    for i in range(0, len(tokens)):
+        if i % 2 == 1 and tokens[i].token_type is not TokenType.OP:
+            return "Missing operator while parsing"
+        elif i % 2 == 0 and (tokens[i].token_type is not TokenType.DR and tokens[i].token_type is not TokenType.MOD):
+            return "Missing operand while parsing"
+    if tokens[len(tokens) - 1].token_type is not TokenType.DR and tokens[len(tokens) - 1].token_type is not TokenType.MOD:
+        return "Missing operand while parsing"
 
     for i in tokens:
         if i.token_type is TokenType.MOD or i.token_type is TokenType.OP:
