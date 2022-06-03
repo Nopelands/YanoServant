@@ -3,7 +3,7 @@ import sys
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from dice_parser import dice_parser, max_dice_parser
+from dice_parser import dice_parser
 
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
@@ -33,22 +33,9 @@ r_help = "Rolls dice, formatting follows !r XdY(+N(+ZdK+M(...)))\n\nWhere X and 
 async def roll_dice(ctx, query_string):
     try:
         response = dice_parser(query_string)
-    except ValueError:
-        response = "Formating Error\nUse !help to get help"
     except:
         print(sys.exc_info()[0])
-        response = "Unexpected Error\nPing @Resident Weeb to get it fixed"
+        response = "Unexpected Error"
     await ctx.send(response)
 
-
-@bot.command(name='ｒ', help=r_help)
-async def max_roll_dice(ctx, query_string):
-    try:
-        response = max_dice_parser(query_string)
-    except ValueError:
-        response = "Formating Error\nUse !help to get help"
-    except:
-        print(sys.exc_info()[0])
-        response = "Unexpected Error\nPing @Resident Weeb to get it fixed"
-    await ctx.send(response)
 bot.run(token)
