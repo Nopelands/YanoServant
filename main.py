@@ -1,8 +1,6 @@
 import os
 import sys
-# import discord
 from discord.ext import commands
-# from discord import app_commands
 from dotenv import load_dotenv
 from dice_parser import dice_parser
 import logging
@@ -40,12 +38,6 @@ def main():
             print(sys.exc_info()[0])
             response = "Unexpected Error"
         await ctx.send(response)
-
-    # tree = app_commands.CommandTree(bot)
-    #
-    # @tree.command(name="roll", description="rolls dice with modifiers.")
-    # async def slash_roll_dice(interaction: discord.Interaction):
-    #     await interaction.response.send_message("test")
 
     bot.run(token)
 
